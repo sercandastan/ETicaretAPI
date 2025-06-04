@@ -21,7 +21,7 @@ namespace ETicaretAPI.Application.Repositories
 
         bool Update(T model);
 
-        Task<int> SaveAsync (T model);
+        Task<int> SaveAsync ();
         
     }
 }
